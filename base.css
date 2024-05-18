@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html, body {
     margin: 0;
 }
@@ -11,28 +15,224 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
 }
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
+    border-radius: 15px;
 }
 .menu {
     width: 15%;
     background-color: aqua;
     padding: 10px 20px 0px;
+    border-radius: 15px;
 }
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
 }
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
+    border-radius: 15px;
 }
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 15px ;
+    border-radius: 15px;
+
 }
+
+.menu{
+    text-decoration: underline;
+    font-weight: bold;
+    width: 20%;
+}
+.menu button{
+    border-radius: 10px;
+
+    padding: 15px;
+    border:none;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: purple;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+ 
+}
+.menu button a{
+    color: #fff;
+}
+.menu button:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1.2)
+}
+.menu ul li{
+    list-style: none;
+    padding: 10;
+    margin-top: 15px;
+}
+
+.header img{
+    width: 300px;
+}
+
+.content{
+    text-align: justify;
+}
+
+.footer-right, .footer-left {
+    justify-content: space-between;
+    width: 50%;
+    color: white;
+}
+.footer-left img{
+    width: 25px;
+    text-align: center;
+    align-items: center;
+
+}
+.footer-left {
+    font-weight: bold;
+    font-size: 16px;
+    display: inline;
+    padding: none;
+    margin: 0;
+    
+}
+
+.footer-right{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 45%;
+    padding: 20px 20px 20px 1px;
+}
+h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.license{
+    width: 100%;
+    margin-right: 0;
+    
+    
+}
+
+a{
+    font-style: none;
+    color: black;
+    text-decoration: none;
+    
+}
+.redes{
+    justify-content: space-between;
+    width: 50%;
+}
+.footer-right img{
+    width: 45px;
+}
+
+
+.contact-contact{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form{
+    display: block;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+
+}
+legend{
+    font-style:bold;
+    
+}
+
+fieldset{
+    width: 100%;
+    display: block;
+    text-align: center;
+    align-items: center ;
+    text-decoration: none;
+    justify-content: space-between;
+
+}
+
+fieldset input{
+    width: 54%;
+    height: 30px;
+    margin: auto;
+    position: relative;
+    outline: none;
+    border: 0;
+    background-color: gray;
+    border-radius: 15px;
+    margin-top: 1%;
+}
+label{
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+    
+    position: absolute;
+    left: -170px;
+    margin-right: 5px;
+}
+
+textarea{
+    margin-top: 10px;
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+    border-radius: 25px;
+    border: none;
+}
+
+form button{
+    padding: 10px;
+    font-size: larger;
+    border-radius: 25px;
+    background-color: purple;
+    color: white; 
+    font-weight: bold;   
+}
+table{
+    margin: 1px black;
+    color: black;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: justify;
+    align:center;
+    background: #e3e3e3;
+
+
+}
+table, tr, td{
+    border: 1px solid black;
+
+}
+
+thead td{
+    font-weight: bold;
+}
+thead {
+    background-color: #9c9a9a;
+}
+
